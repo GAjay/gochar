@@ -6,7 +6,7 @@ function App() {
   return (
     <>
     
-    <div className="carousel h-svh bg-[url('/public/young-brahman.jpg')]">
+    <div className="h-svh bg-cover bg-center bg-no-repeat bg-cow">
       <Navbar/>
       <Carousel/>
       </div>
