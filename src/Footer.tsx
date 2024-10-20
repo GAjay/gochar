@@ -1,15 +1,15 @@
 import logo from "./assets/logo.svg";
 
 const Footer = () => (
-    <footer className="w-full py-14 border-t border-gray-200">
+    <footer className="w-full border-t border-gray-200">
     <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="max-w-3xl mx-auto">
+        <div className="max-w-3xl mx-auto pt-10">
             <a href="https://pagedone.io/" className="flex justify-center ">
                 <img src={logo} alt="logo"/>
             </a>
             
                 <ul className="text-lg flex items-center justify-center flex-col gap-7 md:flex-row md:gap-12 transition-all duration-500 py-16 mb-10 border-b border-gray-200">
-                    <li><a href="#about-us" className="text-gray-800 hover:text-gray-900">About Us</a></li>
+                    <li><a href="#gallery" className="text-gray-800 hover:text-gray-900">Gallery</a></li>
                     <li><a href="#videos" className=" text-gray-800 hover:text-gray-900">Videos</a></li>
                     <li><a href="https://www.youtube.com/@SarehNathaniaGochar" className=" text-gray-800 hover:text-gray-900">YouTube</a></li>
                 </ul>
@@ -30,7 +30,7 @@ const Footer = () => (
         </div>
       
     </div>
-    <div className="text-lg text-white text-center block bg-orange py-5">©<a href="/">Sareh Nathania Gochar</a> {new Date().getFullYear()}, All rights reserved.</div>
+    <div className="text-lg text-white text-center block bg-primary py-5">©<a href="/">Sareh Nathania Gochar</a> {new Date().getFullYear()}, All rights reserved.</div>
        
 </footer>
                                         

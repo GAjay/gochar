@@ -1,6 +1,7 @@
 import Navbar from './Nav'
 import Carousel from './Carousel'
 import Footer from './Footer'
+import CTA from './CTA'
 
 const images=[
   "https://scontent.fudr1-1.fna.fbcdn.net/v/t39.30808-6/441507151_122147876834193339_6759347503756173077_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=LNmaTDxgyJwQ7kNvgES4H3B&_nc_zt=23&_nc_ht=scontent.fudr1-1.fna&_nc_gid=AFxDCsrfN5uTL8duF1v7ZaS&oh=00_AYDkCmm8qunBMw9GrUJ4rxlE8BgZXfiVQg4s81gixPYssw&oe=671A8FE3",
@@ -19,8 +20,8 @@ function App() {
           <Navbar/>
           <Carousel/>
       </div>
-        <main>
-      <section className='mt-10 mb-20 relative overflow-hidden h-screen'>
+     <main className='max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4'>
+      <section className='mt-10 mb-20 relative overflow-hidden h-screen' id="videos">
           <div className="text-center "> 
               <h1 className="mt-4 text-3xl tracking-tight text-gray-900 sm:text-5xl text-primary">
                     Anand
@@ -39,7 +40,8 @@ function App() {
           </div>
           <div className="elfsight-app-e6f0efec-c489-483f-a64b-d9d08e0be195 pt-6" data-elfsight-app-lazy/>
       </section>
-      <section className="mt-10 mb-20 relative overflow-hidden h-screen">
+      <CTA/>
+      <section className="mt-10 mb-20 relative overflow-hidden h-screen" id="gallery">
             <div className="text-center ">
               <h1 className="mt-4 text-3xl tracking-tight text-gray-900 sm:text-5xl text-primary">
                 Glimpse Of
