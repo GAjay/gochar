@@ -20,5 +20,7 @@ body {
 }
 .bg-orange{
   background-color: #EF6B2F;
+  color:#EF6B2F;
+  border-color: #EF6B2F;
 }
 /* carousel */

@@ -1,20 +1,17 @@
 import logo from "./assets/logo.svg";
 
 const Footer = () => (
-    <footer className="w-full border-t border-gray-200">
-    <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="max-w-3xl mx-auto pt-10">
-            <a href="https://pagedone.io/" className="flex justify-center ">
-                <img src={logo} alt="logo"/>
-            </a>
-            
-                <ul className="text-lg flex items-center justify-center flex-col gap-7 md:flex-row md:gap-12 transition-all duration-500 py-16 mb-10 border-b border-gray-200">
-                    <li><a href="#gallery" className="text-gray-800 hover:text-gray-900">Gallery</a></li>
-                    <li><a href="#videos" className=" text-gray-800 hover:text-gray-900">Videos</a></li>
-                    <li><a href="https://www.youtube.com/@SarehNathaniaGochar" className=" text-gray-800 hover:text-gray-900">YouTube</a></li>
-                </ul>
-                <div className="flex space-x-10 justify-center items-center mb-14">
-                    <a href="https://www.facebook.com/people/सरेह-नथानिया-गौचर-बीकानेर/61555800189887/" className="block  text-gray-900 transition-all duration-500 hover:text-indigo-600 ">
+<div className="w-full max-w-7xl mx-auto px-6 sm:px-4 lg:px-2 border-t border-gray-200">
+            <div className="flex flex-col lg:flex-row gap-y-4 items-center justify-between py-8 border-b border-gray-200">
+                <div className="flex flex-col sm:flex-row items-center gap-5">
+                    <a href="#" className="py-1.5 px-0.5">
+                     <img src={logo} alt="logo"/>
+                    </a>
+
+                </div>
+                <p className="font-normal text-sm leading-6 text-gray-900">© 2024 Pagedone. All rights reserved.</p>
+                <div className="flex items-center gap-4 ">
+                <a href="https://www.facebook.com/people/सरेह-नथानिया-गौचर-बीकानेर/61555800189887/" className="block  text-gray-900 transition-all duration-500 hover:text-indigo-600 ">
                         <svg className="w-[0.938rem] h-[1.625rem]" viewBox="0 0 15 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M13.7926 14.4697L14.5174 9.86889H10.0528V6.87836C10.0528 5.62033 10.6761 4.39105 12.6692 4.39105H14.7275V0.473179C13.5289 0.282204 12.3177 0.178886 11.1037 0.164062C7.42917 0.164062 5.0302 2.37101 5.0302 6.36077V9.86889H0.957031V14.4697H5.0302V25.5979H10.0528V14.4697H13.7926Z" fill="currentColor"/>
                             </svg>
@@ -26,13 +23,21 @@ const Footer = () => (
                             </svg>
                             
                     </a>
+                    
                 </div>
+            </div>
+            <div className="flex item-center justify-between pt-6 md:flex-row flex-col">
+                <div className="block xl:max-w-[900px] lg:max-w-[700px] md:max-w-[500px] pb-5 md:pb-0">
+                    <p className="text-gray-900 text-xs text-center md:text-left"><a href="tel:9828592885" className="text-indigo-600">Developed By</a> Ajay Kumar Maheshwari
+                    </p>
+                </div>
+                <div className=" flex items-center justify-center gap-2">
+                    <p className="font-normal text-sm text-gray-900">Crafted with</p>
+                    <img src="https://pagedone.io/asset/uploads/1699268349.png" alt="image"/>
+                    <span className="font-normal text-sm text-gray-900">in Bikaner</span>
+                </div>
+            </div>
         </div>
-      
-    </div>
-    <div className="text-lg text-white text-center block bg-primary py-5">©<a href="/">Sareh Nathania Gochar</a> {new Date().getFullYear()}, All rights reserved.</div>
-       
-</footer>
                                         
   );
   
