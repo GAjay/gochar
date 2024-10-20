@@ -3,7 +3,7 @@ import logo from "./assets/logo.svg";
 
 const menus = [
   { name: "About", id: "about-us" },
-  { name: "Videos", id: "videos" },
+  { name: "Products", id: "products" },
   { name: "Contact Us", id: "contact-us" },
 ];
 

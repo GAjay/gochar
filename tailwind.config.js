@@ -6,6 +6,7 @@ export default {
         backgroundImage: {
           'hero-pattern': "url('/img/hero-pattern.svg')",
           'footer-texture': "url('/public/banner.jpg')",
+          'cow':"url('/public/young-brahman.jpg')"
         },
         keyframes: {
           typing: {
