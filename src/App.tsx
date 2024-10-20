@@ -21,7 +21,7 @@ function App() {
           <Carousel/>
       </div>
      <main className='max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4'>
-      <section className='mt-10 mb-20 relative overflow-hidden h-screen' id="videos">
+      <section className='mt-10 mb-20 relative overflow-hidden' id="videos">
           <div className="text-center "> 
               <h1 className="mt-4 text-3xl tracking-tight text-gray-900 sm:text-5xl text-primary">
                     Anand
@@ -41,7 +41,7 @@ function App() {
           <div className="elfsight-app-e6f0efec-c489-483f-a64b-d9d08e0be195 pt-6" data-elfsight-app-lazy/>
       </section>
       <CTA/>
-      <section className="mt-10 mb-20 relative overflow-hidden h-screen" id="gallery">
+      <section className="mt-10 mb-20 relative overflow-hidden " id="gallery">
             <div className="text-center ">
               <h1 className="mt-4 text-3xl tracking-tight text-gray-900 sm:text-5xl text-primary">
                 Glimpse Of
