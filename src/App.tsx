@@ -2,15 +2,20 @@ import Navbar from './Nav'
 import Carousel from './Carousel'
 import Footer from './Footer'
 import CTA from './CTA'
+import item1 from './assets/item1.jpg'
+import item2 from './assets/item2.jpg'
+import item3 from './assets/item3.jpg'
+import item4 from './assets/item4.jpg'
+import item5 from './assets/item5.jpg'
+import item6 from './assets/item6.jpg'
 
 const images=[
-  "https://scontent.fudr1-1.fna.fbcdn.net/v/t39.30808-6/441507151_122147876834193339_6759347503756173077_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=LNmaTDxgyJwQ7kNvgES4H3B&_nc_zt=23&_nc_ht=scontent.fudr1-1.fna&_nc_gid=AFxDCsrfN5uTL8duF1v7ZaS&oh=00_AYDkCmm8qunBMw9GrUJ4rxlE8BgZXfiVQg4s81gixPYssw&oe=671A8FE3",
-  "https://scontent.fudr1-1.fna.fbcdn.net/v/t39.30808-6/423692390_122107104500193339_7489324886397860538_n.jpg?stp=c546.0.957.957a_dst-jpg_s552x414&_nc_cat=103&ccb=1-7&_nc_sid=50c75d&_nc_ohc=vcDpm28tWiEQ7kNvgFiyGs6&_nc_zt=23&_nc_ht=scontent.fudr1-1.fna&_nc_gid=AzQqpzRwUTH5GLkFbHsp3m7&oh=00_AYBEKjIxBTjdS6XRJoZDedwHldtpCaoknQvtG5RZPAQziQ&oe=671AA008",
-  "https://scontent.fudr1-1.fna.fbcdn.net/v/t39.30808-6/428665696_122119885004193339_982216926098623815_n.jpg?stp=c546.0.957.957a_dst-jpg_s552x414&_nc_cat=105&ccb=1-7&_nc_sid=50ad20&_nc_ohc=wb2mp1vOIc4Q7kNvgEZc4fj&_nc_zt=23&_nc_ht=scontent.fudr1-1.fna&_nc_gid=ATLu50bPEOCqdgZa-f4YFb9&oh=00_AYDVLUXF8NIt5KWHpp0AHXU0qtIdw9tQNP2OuZbxGbZtbA&oe=671AA90A",
-  "https://scontent.fudr1-1.fna.fbcdn.net/v/t39.30808-6/421926230_7052903871454825_1120990758253962783_n.jpg?stp=c799.0.1399.1399a_dst-jpg_s552x414&_nc_cat=102&ccb=1-7&_nc_sid=50c75d&_nc_ohc=zonbOP9esjMQ7kNvgHOTSn4&_nc_zt=23&_nc_ht=scontent.fudr1-1.fna&_nc_gid=AzQqpzRwUTH5GLkFbHsp3m7&oh=00_AYDgIsr9YkhJn9O4Zz33Iq7OFSSdNs97xz5fIQEb1xxKpw&oe=671A8BA1",
-  "https://scontent.fudr1-1.fna.fbcdn.net/v/t39.30808-6/423247961_122108729486193339_5473014471759984058_n.jpg?stp=dst-jpg_s552x414&_nc_cat=103&ccb=1-7&_nc_sid=fe5ecc&_nc_ohc=9ED1SMAJONoQ7kNvgFxj2CC&_nc_zt=23&_nc_ht=scontent.fudr1-1.fna&_nc_gid=AzQqpzRwUTH5GLkFbHsp3m7&oh=00_AYA1CtOFr4iabGxpcbMMhXvpFhw0D8gyZJd_2-QK7M7Ajw&oe=671AA9A0",
-  "https://scontent.fudr1-1.fna.fbcdn.net/v/t39.30808-6/420127750_7052899694788576_6857767908725407799_n.jpg?stp=c799.0.1399.1399a_dst-jpg_s552x414&_nc_cat=111&ccb=1-7&_nc_sid=7a06f5&_nc_ohc=5BtIWcANuPcQ7kNvgEO3ZW3&_nc_zt=23&_nc_ht=scontent.fudr1-1.fna&_nc_gid=AzQqpzRwUTH5GLkFbHsp3m7&oh=00_AYBA8obUfjyiaZ8_sFhmv9dl__rqZrfD287CTjmb9ATp5g&oe=671ABDC6"
-]
+  item1,
+  item2,
+  item3,
+  item4,
+  item5,
+  item6]
 
 function App() {
 
@@ -62,7 +67,7 @@ function App() {
               <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
                 {images.map((item)=>
                   <div>
-                      <img className="h-full max-w-full rounded-lg object-cover" src={item} alt=""/>
+                      <img className="h-80 max-w-full rounded-lg object-cover" src={item} alt=""/>
                   </div>)}
                  
               </div>
