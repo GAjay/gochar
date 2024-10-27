@@ -65,9 +65,9 @@ function App() {
             </div>
             <div className="pt-6 mt-10">
               <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-                {images.map((item)=>
-                  <div>
-                      <img className="h-80 max-w-full rounded-lg object-cover" src={item} alt=""/>
+                {images.map((item, index)=>
+                  <div key={index+"item"} className='object-cover'>
+                      <img className="aspect-square max-w-full rounded-lg object-cover" src={item} alt=""/>
                   </div>)}
                  
               </div>
